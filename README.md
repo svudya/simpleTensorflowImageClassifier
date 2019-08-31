@@ -1,4 +1,4 @@
-# simpleTensorflowImageClassifier
+# Simple Tensorflow Image Classifier
 A simple tensor flow based Image classifier
 
 ## Steps to run:
