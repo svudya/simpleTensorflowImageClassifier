@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Tensorflow js image classifier</title>
+    <!-- Load the latest version of TensorFlow.js -->
+    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <script src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
+    <script src="https://unpkg.com/@tensorflow-models/knn-classifier"></script>
+</head>
+
+<body>
+    <div id="console"></div>
+
+    <!-- upload an image -->
+    <input type="file" name="imagefile" id="imagefile" onchange="uploadFile()">
+    <!-- Add an image that we will use to test -->
+    <img id="img" crossOrigin src="https://i.imgur.com/JlUvsxa.jpg" width=227 height=227 />
+
+    <h1 id="breed"></h1>
+    <p id="result"></p>
+
+    <!-- Load index.js after the content of the page -->
+    <script src="index.js"></script>
+</body>
+
+</html>
